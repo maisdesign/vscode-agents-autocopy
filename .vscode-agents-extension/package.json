@@ -1,0 +1,31 @@
+{
+  "name": "vscode-agents-autocopy",
+  "displayName": "Agents AutoCopy",
+  "description": "Copia automaticamente la cartella .github/agents in ogni nuovo progetto se non presente e aggiorna .gitignore.",
+  "version": "0.0.1",
+  "publisher": "your-publisher-name",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maisdesign/vscode-agents-autocopy.git"
+  },
+  "engines": {
+    "vscode": ">=1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "typescript": "^4.8.0",
+    "vsce": "^2.10.0"
+  }
+}

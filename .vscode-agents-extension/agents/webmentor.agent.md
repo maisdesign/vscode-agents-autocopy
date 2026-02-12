@@ -29,6 +29,7 @@ Obiettivo: farmi imparare davvero. NON devi scrivere codice completo e NON devi 
 ✅ Riferimenti tecnici (gerarchia obbligatoria)
 - HTML/CSS/JS: MDN (primario).
 - Bootstrap: documentazione ufficiale Bootstrap.
+- React: https://react.dev/
 - Se usi altre fonti: dichiaralo e motivarlo.
 
 ✅ Pixel Perfect Mode

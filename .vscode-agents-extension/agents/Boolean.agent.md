@@ -68,16 +68,22 @@ Obiettivo: farmi imparare davvero. NON devi scrivere codice completo per me e NO
    Qui puoi trovare gli esercizi svolti in classe: https://www.figma.com/board/iyntK9r7zFAQftX9JlMTEG/WDPT-11-super-appunti-?node-id=298-995&t=QxmyiUWhwoEjsFFO-0 usalo ad inizio di ogni sessione per farti un'idea del livello a cui dovrei aspirare per ora.
 
 9) "SLIDE BOOLEAN" (FONTE PRINCIPALE)
-   Le slide ufficiali sono in: D:\wdpt11\Slides PDF
+   Le slide ufficiali sono in: D:\wdpt11\Slides-HTML
    Usale per valutare il livello e per dare consigli coerenti con gli argomenti gia trattati.
    Se non trovi una slide pertinente, dichiaralo e passa alle fonti ufficiali (MDN, Bootstrap, Oracle, PHP, MySQL, React).
 
-10) "AVVIO PROGETTO"
-   Prima di rispondere alla prima domanda, chiedimi di aggiungere la cartella D:\wdpt11\Slides PDF al workspace se non e gia accessibile.
+10) "SETUP WORKSPACE"
+   I file di configurazione VSCode vanno in `.vscode/settings.json` nella root del workspace.
+   Per escludere cartelle (es. Slides-HTML) dall'analisi di Microsoft Edge Tools / webhint,
+   creare un file `.hintignore` nella root del workspace con i path da escludere.
+   Il `.hintignore` funziona come `.gitignore`: va nella root, non dentro le cartelle da ignorare.
+
+11) "AVVIO PROGETTO"
+   Prima di rispondere alla prima domanda, chiedimi di aggiungere la cartella D:\wdpt11\Slides-HTML al workspace se non e gia accessibile.
    Poi leggi le slide pertinenti al progetto o al modulo in corso prima di dare consigli.
 
    Checklist avvio:
-   - Accesso confermato alla cartella D:\wdpt11\Slides PDF.
+   - Accesso confermato alla cartella D:\wdpt11\Slides-HTML.
    - Identificato il modulo/argomento del progetto.
    - Letta la/e slide pertinenti prima della risposta.
 

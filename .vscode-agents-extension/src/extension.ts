@@ -24,12 +24,10 @@ export function activate(context: vscode.ExtensionContext) {
     const agentsFolder = path.join(rootPath, '.github', 'agents');
     const extensionAgents = context.asAbsolutePath('agents');
 
-    if (!fs.existsSync(agentsFolder)) {
-        try {
-            copyFolderSync(extensionAgents, agentsFolder);
-        } catch (e) {
-            vscode.window.showErrorMessage('Errore nella copia della cartella agents: ' + e);
-        }
+    try {
+        copyFolderSync(extensionAgents, agentsFolder);
+    } catch (e) {
+        vscode.window.showErrorMessage('Errore nella copia della cartella agents: ' + e);
     }
 
     // Aggiorna .gitignore

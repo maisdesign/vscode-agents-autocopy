@@ -1,8 +1,8 @@
 {
   "name": "vscode-agents-autocopy",
   "displayName": "Agents AutoCopy",
-  "description": "Copia automaticamente la cartella .github/agents in ogni nuovo progetto se non presente e aggiorna .gitignore.",
-  "version": "0.0.3",
+  "description": "Copia e aggiorna la cartella .github/agents in ogni progetto ad ogni avvio, sovrascrivendo i file esistenti. Aggiorna .gitignore.",
+  "version": "0.0.4",
   "publisher": "taky",
   "repository": {
     "type": "git",
